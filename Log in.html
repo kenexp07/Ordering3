@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ken's Restaurant</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+
+    <style>
+h1{
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+        body {
+            background-color: #333;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center; 
+            align-items: center;   
+            text-align: center;
+        }
+        .box {
+            background-color: #444;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+        input[type="text"] {
+            padding: 10px;
+            width: 80%;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        input[type="submit"] {
+            padding: 10px 20px;
+            margin-top: 10px;
+            background-color: #6666;
+            border: none;
+            color: white;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        input:focus,
+        input:valid{
+    color: #bbc2b6;
+    border: 2px solid #333;
+}
+
+input{
+    position:relative;
+    outline: none;
+    font-size: 1.2em;
+    padding: 0 30px;
+    border-radius: 10px;
+    border: 2px solid #f0ffff;
+    background: transparent;
+    transition: 0.1s ease;
+   
+   
+   
+    
+}
+
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="box">
+            <h1>Ken's Restaurant</h1>
+            <form action="intro.html">
+                <label for="crush">Enter your crush name</label><br>
+                <input type="text" id="crush" name="crush" required="true"><br>
+                <input type="submit" value="Submit" >
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>
